@@ -44,8 +44,8 @@ public class Ventana implements ActionListener{
         this.frame.setLocationRelativeTo(null);
         this.frame.setDefaultCloseOperation(WindowConstants.DO_NOTHING_ON_CLOSE);
         this.frame.setVisible(true);
-        this.leerGuardado();
         this.comboBox();
+        this.leerGuardado();
         this.cambiarIdioma(this.idiomaSeleccionado);
         this.cambiarTiempo();
         this.accionBotones();
@@ -110,14 +110,14 @@ public class Ventana implements ActionListener{
         this.idiomaComboBox.addItem("Español");
         this.idiomaComboBox.addItem("English");
         this.idiomaComboBox.addItem("Português");
-        if (this.idiomaSeleccionado.equals("es")){
-            this.idiomaComboBox.setSelectedIndex(0);
-        }
-        if (this.idiomaSeleccionado.equals("en")){
+        if (this.idiomaSeleccionado=="es"){
             this.idiomaComboBox.setSelectedIndex(1);
         }
-        if (this.idiomaSeleccionado.equals("pr")){
+        if (this.idiomaSeleccionado=="en"){
             this.idiomaComboBox.setSelectedIndex(2);
+        }
+        if (this.idiomaSeleccionado=="pr"){
+            this.idiomaComboBox.setSelectedIndex(3);
         }
     }
 
@@ -240,7 +240,7 @@ public class Ventana implements ActionListener{
     }
 
     public void cambiarIdioma(String idioma){
-        this.idioma.elejirIdioma(idioma);
+        this.idioma.elegirIdioma(idioma);
         this.trabajoPomo.setText(this.idioma.trabajoTitulo);
         this.descansoPomo.setText(this.idioma.descansoTitulo);
         this.instruccionesLabel.setText(this.idioma.instruccionesTitulo);
