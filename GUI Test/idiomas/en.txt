@@ -1,0 +1,25 @@
+WORK
+REST
+EDIT WORK
+EDIT BREAK
+START
+PAUSE
+STOP
+QUIT
+¿Do you want to close the Pomodore?
+Instructions:
+- Start: Starts the pomodore.
+- Pause: Stops the pomodore at the current time.
+- Stop: Ends the pomodore.
+- Edit: edit the Work/Break minutes.
+Write the minutes:
+ERROR
+Write a number between 0 and 60
+Write an entire number
+End of Work time
+End of Break time
+Information
+Switching to Work Time
+Switching to Break Time
+Yes/No
+Ok/Cancel

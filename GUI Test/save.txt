@@ -1,0 +1,3 @@
+MinutosTrabajo=25
+MinutosDescanso=5
+Idioma=es

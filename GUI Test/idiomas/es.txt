@@ -1,0 +1,25 @@
+TRABAJO
+DESCANSO
+EDITAR TRABAJO
+EDITAR MINUTOS
+INICIAR
+PAUSAR
+DETENER
+SALIR
+¿Desea salir?
+Instrucciones:
+- Iniciar: inicia el Pomodoro.
+- Pausar: detiene el Pomodoro en el minuto actual.
+- Detener: finaliza el Pomodoro.
+- Editar: edita los minutos de trabajo o descanso.
+Ingrese los minutos:
+ERROR
+Ingrese un numero entre 0 y 60
+Ingrese un numero entero
+Fin del tiempo de trabajo
+Fin del tiempo de descanso
+Informacion
+Cambiando a Trabajo
+Cambiando a Descanso
+Si/No
+Aceptar/Cancelar
